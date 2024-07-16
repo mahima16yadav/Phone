@@ -1,0 +1,279 @@
+.custom-icon {
+  height: 1.919rem;
+  width: 1.919rem;
+  position: relative;
+  border-radius: 10.24px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.social-icon {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 var(--padding-8xl) 0 var(--padding-xl);
+}
+.phone1 {
+  position: relative;
+  letter-spacing: -0.01em;
+  line-height: 1.5rem;
+  font-weight: 500;
+  display: inline-block;
+  min-width: 2.625rem;
+}
+.phone-details {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-26xl);
+}
+.we-are-available {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-2xs-2);
+  line-height: 0.96rem;
+  color: var(--website-secondary-text);
+  text-align: center;
+}
+.phone-info,
+.phone-number1 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.phone-number1 {
+  flex: 1;
+  flex-direction: column;
+  gap: var(--gap-7xs-1);
+}
+.phone-info {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 var(--padding-57xl) 0 var(--padding-50xl);
+}
+.div3 {
+  width: 5.188rem;
+  position: relative;
+  line-height: 1rem;
+  font-weight: 500;
+  display: inline-block;
+  min-width: 5.188rem;
+}
+.empty-container {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 var(--padding-8xl) var(--padding-4xs-6) var(--padding-xl);
+  text-align: center;
+  font-size: var(--font-size-xs-5);
+}
+.contact-icons,
+.custom-icon1 {
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.contact-icons {
+  align-self: stretch;
+  height: 0.063rem;
+  max-width: 100%;
+}
+.custom-icon1 {
+  height: 1.919rem;
+  width: 1.919rem;
+  border-radius: 10.24px;
+}
+.custom-icon-containers,
+.icon-fields {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 var(--padding-8xl) 0 var(--padding-xl);
+}
+.icon-fields {
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-5xs-5);
+  gap: var(--gap-lg);
+}
+.email1,
+.we-will-reply {
+  align-self: stretch;
+  position: relative;
+}
+.email1 {
+  letter-spacing: -0.01em;
+  line-height: 1.5rem;
+  font-weight: 500;
+}
+.we-will-reply {
+  font-size: var(--font-size-2xs-2);
+  line-height: 1rem;
+  color: var(--website-secondary-text);
+  text-align: left;
+}
+.email-address,
+.email-info {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.email-address {
+  flex: 1;
+  flex-direction: column;
+  gap: var(--gap-7xs-1);
+}
+.email-info {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 var(--padding-44xl) var(--padding-5xs-4) var(--padding-37xl);
+  text-align: center;
+}
+.helloflowcom {
+  position: relative;
+  text-decoration: underline;
+  line-height: 1rem;
+  font-weight: 500;
+  display: inline-block;
+  min-width: 4.938rem;
+  white-space: nowrap;
+}
+.website-address {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 var(--padding-9xl) var(--padding-2xs-5) var(--padding-xl);
+  font-size: var(--font-size-xs-5);
+}
+.custom-icon2,
+.icon-fields-child {
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.icon-fields-child {
+  align-self: stretch;
+  height: 0.063rem;
+  max-width: 100%;
+}
+.custom-icon2 {
+  height: 1.919rem;
+  width: 1.919rem;
+  border-radius: 10.24px;
+}
+.custom-icon-wrapper,
+.icon-fields1 {
+  align-self: stretch;
+  display: flex;
+  align-items: flex-start;
+}
+.custom-icon-wrapper {
+  flex-direction: row;
+  justify-content: center;
+  padding: 0 var(--padding-8xl) 0 var(--padding-xl);
+}
+.icon-fields1 {
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: var(--gap-base);
+}
+.hq-office {
+  position: relative;
+  letter-spacing: -0.01em;
+  line-height: 1.5rem;
+  font-weight: 500;
+  display: inline-block;
+  min-width: 4.063rem;
+}
+.office-info1 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-5xs);
+}
+.visit-us-in {
+  position: relative;
+  font-size: var(--font-size-2xs-2);
+  line-height: 0.96rem;
+  color: var(--website-secondary-text);
+  display: inline-block;
+  min-width: 5.125rem;
+  white-space: nowrap;
+}
+.office-info-parent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-7xs-1);
+}
+.office-details {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 var(--padding-19xl);
+}
+.ranchview-dr-richardson {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-xs-5);
+  line-height: 0.96rem;
+  font-weight: 500;
+  text-align: center;
+}
+.office-address,
+.office-info {
+  display: flex;
+  justify-content: flex-start;
+}
+.office-address {
+  flex: 1;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: var(--gap-lgi-5);
+}
+.office-info {
+  align-self: stretch;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0 var(--padding-44xl) var(--padding-lg-5) var(--padding-37xl);
+}
+.location-icon {
+  align-self: stretch;
+  height: 0.063rem;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.contact-details,
+.contact-info {
+  display: flex;
+  align-items: flex-start;
+}
+.contact-details {
+  flex: 1;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: var(--gap-lgi-6);
+}
+.contact-info {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: flex-end;
+  padding: 0 var(--padding-26xl) var(--padding-6xl-5) var(--padding-27xl);
+  text-align: left;
+  font-size: var(--font-size-base-4);
+  color: var(--content-primary);
+  font-family: var(--font-aboreto);
+}

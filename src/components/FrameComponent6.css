@@ -1,0 +1,72 @@
+.about-us {
+  width: 8.5rem;
+  position: relative;
+  letter-spacing: -0.03em;
+  line-height: 1.75rem;
+  display: inline-block;
+  min-width: 5.5rem;
+  flex-shrink: 0;
+  margin-bottom: 1rem;
+  color:black;
+  font-weight: 900;
+}
+.contact-button.learn-more {
+  background-color: transparent; 
+  border: 1px solid black; 
+  color: black; 
+  padding: 11px 16px; 
+  font-size: 0.7rem; 
+  border-radius: 2rem; 
+  cursor: pointer;
+  transition: background-color 0.3s ease; 
+  margin-bottom: 80px;
+  text-decoration: none;
+  font-weight:800;
+}
+.contact-button.learn-more:hover {
+  background-color: #f76c1b; 
+}
+.at-lifeline-ambulance {
+  align-self: stretch;
+  position: relative;
+  letter-spacing: -0.01em;
+  line-height: 1.35rem;
+  font-weight: 800;
+  font-size: 0.7rem;
+  margin-bottom: 1rem;
+}
+.button1 {
+  width: 3.325rem;
+}
+.text-wrapper {
+  align-self: stretch;
+  flex-direction: column;
+  align-items: center;
+  padding: 0;
+  gap: var(--gap-base);
+  flex-shrink: 0;
+  font-size: var(--font-size-mini-4);
+}
+.container-wrapper,
+.container1,
+.text-wrapper {
+  display: flex;
+  justify-content: flex-start;
+}
+.container1 {
+  flex: 1;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--gap-smi-8);
+  flex-shrink: 0;
+}
+.container-wrapper {
+  align-self: stretch;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0 var(--padding-16xl);
+  text-align: center;
+  font-size: var(--font-size-5xl-8);
+  color: var(--content-primary);
+  font-family: var(--font-aboreto);
+}

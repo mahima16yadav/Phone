@@ -1,0 +1,87 @@
+.emergency-ambulance {
+  width: 13.75rem;
+  position: relative;
+  letter-spacing: -0.03em;
+  line-height: 1.875rem;
+  display: inline-block;
+}
+.image-icon {
+  width: 15.25rem;
+  height: 15.25rem;
+  position: relative;
+  border-radius: var(--br-5xs);
+  object-fit: cover;
+}
+.solar-panels-convert {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-4xs);
+  line-height: 0.813rem;
+  color: var(--website-secondary-text);
+}
+.content-wrapper1,
+.text-wrapper1 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-xs);
+}
+.content-wrapper1 {
+  gap: var(--gap-xl);
+}
+.arrow-left-icon,
+.arrow-right-icon {
+  height: 1rem;
+  width: 1rem;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  min-height: 1rem;
+}
+.arrow-left-parent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+}
+.emergency-ambulance-content {
+  width: 20rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 0 var(--padding-19xl) 0 var(--padding-18xl);
+  box-sizing: border-box;
+  gap: var(--gap-25xl);
+}
+.emergency-ambulance-container {
+  flex: 1;
+  border-radius: var(--br-xs);
+  background-color: var(--bgelementsgreywebsite);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: var(--padding-13xl) var(--padding-base) var(--padding-13xl)
+    var(--padding-13xl);
+  box-sizing: border-box;
+  max-width: 100%;
+  gap: var(--gap-xl);
+}
+.emergency-ambulance-container-wrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-base-5) var(--padding-12xs);
+  box-sizing: border-box;
+  max-width: 100%;
+  text-align: center;
+  font-size: var(--font-size-5xl);
+  color: var(--content-primary);
+  font-family: var(--font-aboreto);
+}

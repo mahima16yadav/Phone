@@ -1,0 +1,140 @@
+.frame-child1,
+.frame-child2,
+.icon-inner {
+  position: absolute;
+  left: 0;
+  background-color: var(--branding-orangewebsite);
+}
+.icon-inner {
+  top: 0;
+  border-radius: var(--radius-xs);
+  width: 100%;
+  height: 100%;
+}
+.frame-child1,
+.frame-child2 {
+  border-radius: var(--br-9xs-3);
+  width: 0.069rem;
+  height: 0.413rem;
+}
+.frame-child1 {
+  top: 0;
+}
+.frame-child2 {
+  top: 0.688rem;
+}
+.group-div,
+.group-icon {
+  position: absolute;
+  top: 0.275rem;
+  left: 0.794rem;
+  width: 0.069rem;
+  height: 1.1rem;
+  z-index: 1;
+}
+.group-icon {
+  top: 0.413rem;
+  left: 0.413rem;
+  width: 0.825rem;
+  height: 0.825rem;
+  object-fit: contain;
+  z-index: 2;
+}
+.frame-child3,
+.frame-child4 {
+  position: absolute;
+  top: 0.063rem;
+  border-radius: var(--br-9xs-3);
+  background-color: var(--branding-orangewebsite);
+  width: 0.069rem;
+  height: 0.413rem;
+  transform: rotate(-90deg);
+  transform-origin: 0 0;
+}
+.frame-child3 {
+  left: 0.688rem;
+}
+.frame-child4 {
+  left: 0;
+}
+.icon-child1,
+.rectangle-parent1 {
+  position: absolute;
+  top: 0.794rem;
+  left: 0.275rem;
+  width: 1.1rem;
+  height: 0.069rem;
+  z-index: 3;
+}
+.icon-child1 {
+  top: 0.413rem;
+  left: 0.413rem;
+  width: 0.825rem;
+  height: 0.825rem;
+  object-fit: contain;
+  z-index: 4;
+}
+.icon8 {
+  height: 1.65rem;
+  width: 1.65rem;
+  position: relative;
+}
+.logo-icon {
+  align-self: stretch;
+  height: 1.1rem;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.brand-logo,
+.logo-wrapper {
+  flex: 1;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.logo-wrapper {
+  flex-direction: column;
+  padding: var(--padding-8xs-4) 0 0;
+}
+.brand-logo {
+  flex-direction: row;
+  gap: var(--gap-sm-2);
+}
+.ez-ambulance {
+  position: relative;
+  line-height: 1rem;
+  font-weight: 500;
+  display: inline-block;
+  min-width: 4.875rem;
+  z-index: 1;
+}
+.brand,
+.brand-info,
+.brand-name {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.brand-name {
+  flex-direction: column;
+  padding: var(--padding-6xs-4) 0 0;
+  margin-left: -3.45rem;
+}
+.brand,
+.brand-info {
+  width: 6.925rem;
+  flex-direction: row;
+}
+.brand {
+  width: 22.219rem;
+  justify-content: center;
+  padding: 0 var(--padding-xl) var(--padding-5xl-1);
+  box-sizing: border-box;
+  max-width: 100%;
+  text-align: center;
+  font-size: var(--font-size-xs-2);
+  color: var(--textblackwebsite);
+  font-family: var(--font-inter);
+}
